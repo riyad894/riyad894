@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    overflow: hidden;
+}
+.logo{
+    background-color: aqua;
+    color: tomato;
+    width: 20%;
+    text-align: center;
+    height: 100px;
+    float: left;
+}
+.menu{
+    background-color: brown;
+    color: white;
+    width: 80%;
+    text-align: center;
+    height: 100px;
+    float: left;
+}
+.bar{
+    background-color: chartreuse;
+    height: 50px;
+    text-align: center;
+}
+.content{
+overflow: hidden;
+}
+.left{
+width: 20%;
+background-color: chocolate;
+color: violet;
+height: 300px;
+float: left;
+text-align: center;
+}
+.center{
+width: 60%;
+background-color: cornflowerblue;
+height: 300px;
+float: left;
+text-align: center;
+}
+.right{
+width: 20%;
+background-color: darkblue;
+height: 300px;
+float: left;
+text-align: center;
+color: rgb(250, 0, 0);
+}
+.top{
+height: 75px;
+background-color: rgb(8, 8, 6);
+color: snow;
+}
+.middle{
+height: 150px;
+background-color: tomato;
+}
+.bottom{
+height: 75px;
+background-color: slateblue;
+}
+.middle_left{
+width: 50%;
+background-color: springgreen;
+color:red;
+float: left;
+height: 100%;
+}
+.middle_right{
+width: 50%;
+background-color: rgb(206, 0, 0);
+color: springgreen;
+float: left;
+height: 100%;
+}
+.footer{
+    background-color: violet;
+    height: 100px;
+    text-align: center;
+    color: yellow;
+}
