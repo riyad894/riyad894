@@ -1,63 +1,121 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
-    background-color: crimson;
-    height: 150px;
-    text-align: center;
-}
-.nav{
-    background-color: darkblue;
-    height: 400px;
-    width: 15%;
-    text-align: center;
-    float: left;
-}
-.article{
-    background-color: darkgoldenrod;
-    height: 400px;
-    width: 15%;
-    text-align: center;
-    float: left;
-}
-.ads{
-    background-color: darkgreen;
-    height: 400px;
-    width: 20%;
-    text-align: center;
-    float:left;
-}
-.demo{
-    background-color: darkmagenta;
-    width: 15%;
-    height: 400px;
-    text-align: center;
-    float: left;
 
+header {
+    border-bottom: 2PX DASHED #8bc34a;
 }
-.test{
-    background-color: darkred;
-    height: 400px;
-    width: 20%;
-    text-align: center;
-    float: left;
 
+.header-content {
+    WIDTH: 90%;
+    MARGIN-LEFT: 5%;
+    /* PADDING-TOP: 15PX; */
+    /* PADDING-BOTTOM: 15PX; */
+    overflow: hidden;
 }
-.testing{
-    background-color: darkslateblue;
-    height: 400px;
-    width: 15%;
-    text-align: center;
+
+.logo {
+    WIDTH: 20%;
     float: left;
 }
-.footer{
-    background-color: rgb(3, 3, 3);
-    color: ghostwhite;
-    height: 200px;
-    text-align: center;
 
+.logo img {
+    WIDTH: 50%;
+}
+nav{width: 32%;float: right;padding-top: 15px;}
+nav ul{
+
+list-style: none;
+
+overflow: hidden;
+}
+nav ul li{
+
+float: left;
+
+margin-right: 24px;
+
+font-size: 20px;
+
+text-transform: capitalize;
 }
 .content{
-    overflow: hidden;
+
+width: 60%;
+
+margin-left: 20%;
+
+/* color: blue; */
+
+text-align: center;
+}
+.content h1{
+
+text-align: center;
+
+
+color: #4b4bef;
+
+font-size: 35px;
+
+}
+.content p{
+    
+text-align: center;
+    
+font-size: 15px;
+    
+color: #2ddf0c;
+    
+margin: 30px;
+}
+.content img{
+            
+width: 80%;
+            
+margin-top: 30px;
+}
+.content h1:first-child{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+.main-content{
+
+}
+.left-content{
+
+width: 45%;
+
+float: left;
+
+/* text-align: right; */
+}
+.left-content h1{
+
+text-align: right;
+
+color: !importent;
+
+color: red !important;
+}
+.left-content p{
+
+text-align: right;
+
+margin: 5px;
+}
+.right_content{
+
+width: 45%;
+
+float: right;
+}
+.right_content h1{
+
+color: black;
+
+font-size: 30px;
+
+text-align: left;
 }
