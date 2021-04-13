@@ -49,6 +49,8 @@ margin-left: 20%;
 /* color: blue; */
 
 text-align: center;
+
+overflow: hidden;
 }
 .content h1{
 
@@ -74,7 +76,7 @@ margin: 30px;
             
 width: 80%;
             
-margin-top: 30px;
+margin-top: 31px;
 }
 .content h1:first-child{
     color: rgb(0, 0, 0);
@@ -119,3 +121,46 @@ font-size: 30px;
 
 text-align: left;
 }
+.original{
+
+width: 90%;
+
+margin-left: 5%;
+
+text-align: center;
+
+margin-top: 39px;
+}
+.original-content{
+    
+width: 30%;
+    
+float: left;
+    
+/* height: 31px; */
+}
+.original-content img{
+
+width: 95%;
+}
+.original-content_one{
+
+float: left;
+
+width: 30%;
+}
+.original-content_one img{
+
+width: 95%;
+}
+.original-content_two{
+
+WIDTH: 32%;
+
+float: left;
+}
+.original-content_two img{
+    
+width: 95%;
+}
+
